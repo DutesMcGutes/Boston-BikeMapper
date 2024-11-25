@@ -1,0 +1,38 @@
+body {
+    font: 100%/1.5 system-ui, sans-serif;
+    display: flex;
+    flex-flow: column;
+    max-width: 80em;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1em;
+  }
+  
+  #map {
+    flex: 1;
+  }
+  
+  .marker {
+    background-color: steelblue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin-top: 1em;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .legend div {
+    flex: 1;
+    text-align: center;
+  }
+  
